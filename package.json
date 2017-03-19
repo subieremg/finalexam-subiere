@@ -1,10 +1,11 @@
 {
-  "name": "finalexam-subiere",
+  "name": "final-subiere",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web Dev't Boilerplate Setup using Express",
   "main": "BDP1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "homepage": "https://github.com/subieremg/finalexam-subiere#readme",
   "dependencies": {
     "express": "^4.15.2"
-  }
+  },
+  "devDependencies": {}
 }
