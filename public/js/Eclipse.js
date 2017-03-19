@@ -1,4 +1,4 @@
-$('#app').html(`
+$('#ec').html(`
 
 	<center>
   <svg version="1.1" id="preloader" x="0px" y="0px" width="240px" height="120px" viewBox="0 0 240 120">
@@ -99,7 +99,7 @@ $.ajax({
 		</center>
 
 `
-$('#app').html(html);
+$('#ec').html(html);
 
 
 });
