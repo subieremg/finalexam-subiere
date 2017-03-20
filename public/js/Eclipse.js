@@ -75,27 +75,23 @@ $.ajax({
 
 <center>
 		<h3>Movie Trailer</h3>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/31IligHzvDg" frameborder="0" allowfullscreen></iframe>
+		<iframe width="450" height="315" src="https://www.youtube.com/embed/31IligHzvDg" frameborder="0" allowfullscreen></iframe>
 		<h1>Title: ${res.Title}</h1>
 		<img src="${res.Poster}"/>
-		<h3>Year: ${res.Year}</h3>
-		<h3>Rated: ${res.Rated}</h3>
-		<h3>Released: ${res.Released}</h3>
-		<h3>Runtime: ${res.Runtime}</h3>
-		<h3>Genre: ${res.Genre}</h3>
-		<h3>Director: ${res.Director}</h3>
-		<h3>Writer: ${res.Writer}</h3>
-		<h3>Actors: ${res.Actors}</h3>
-		<h3>Plot: ${res.Plot}</h3>
-		<h3>Language: ${res.Language}</h3>
-		<h3>Country: ${res.Country}</h3>
-		<h3>Awards: ${res.Awards}</h3>
-		<h3>Metascore: ${res.Metascore}</h3>
-		<h3>imbdRating: ${res.imbdRating}</h3>
-		<h3>imdbVotes: ${res.imdbVotes}</h3>
-		<h3>imdID: ${res.imdID}</h3>
-		<h3>Type: ${res.Type}</h3>
-		<h3>Response: ${res.Response}</h3>
+		<h3>Year:${res.Year}</h3>
+		<h3>Rated:${res.Rated}</h3>
+		<h3>Released:${res.Released}</h3>
+		<h3>Runtime:${res.Runtime}</h3>
+		<h3>Genre:${res.Genre}</h3>
+		<h3>Director:${res.Director}</h3>
+		<h3>Writer:${res.Writer}</h3>
+		<h3>Actors:${res.Actors}</h3>
+		<h3>Plot:${res.Plot}</h3>
+		<h3>Language:${res.Language}</h3>
+		<h3>Country:${res.Country}</h3>
+		<h3>Awards:${res.Awards}</h3>
+		<h3>Metascore:${res.Metascore}</h3>
+		<h3>Type:${res.Type}</h3>
 		</center>
 
 `
