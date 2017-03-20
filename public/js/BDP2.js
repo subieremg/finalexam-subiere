@@ -63,10 +63,10 @@ L146.48,87.02z"/>
 	`);
 
 setTimeout(function(){
-	x();
+	y();
 },1000);
 
-function x(){
+function y(){
 $.ajax({
 	url: "https://www.omdbapi.com/?i=tt1673434"
 }).done(function(res){
@@ -99,7 +99,7 @@ $.ajax({
 		</center>
 		
 `
-$('#app').html(html);
+$('#bd2').html(html);
 
 
 });
